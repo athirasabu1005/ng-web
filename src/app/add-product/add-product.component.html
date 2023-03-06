@@ -1,0 +1,42 @@
+<div class="Parent">
+<p>
+    <mat-form-field appearance="fill">
+      <mat-label>Fill form field</mat-label>
+      <input matInput placeholder="Product_Name"[(ngModel)]="products.pname" name="pname">
+      
+      
+    </mat-form-field>
+  </p>
+
+
+<p>
+    <mat-form-field appearance="fill">
+      <mat-label>Fill form field</mat-label>
+      <input matInput placeholder="Product_ID"[(ngModel)]="products.id" name="id">
+     
+    </mat-form-field>
+  </p>
+
+  
+  <p>
+    <mat-form-field appearance="fill">
+      <mat-label>Fill form field</mat-label>
+      <input matInput placeholder="Product_Quantity"[(ngModel)]="products.quantity" name="quantity">
+     
+    </mat-form-field>
+  </p>
+
+  
+  <p>
+    <mat-form-field appearance="fill">
+      <mat-label>Fill form field</mat-label>
+      <input matInput placeholder="Product_Price"[(ngModel)]="products.price" name="price">
+     
+    </mat-form-field>
+  </p>
+  <button mat-button (click)="add()" aria-label="example-icon button with a open in new tab icon">
+    ADD
+  </button>
+
+  
+</div>
